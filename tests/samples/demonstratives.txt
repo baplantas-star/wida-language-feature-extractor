@@ -1,0 +1,16 @@
+# SYNTHETIC — no student data
+SCORES: demonstratives
+TEXT:
+Here is a paper. Please give this to Juan. These seeds grew faster than those seeds.
+That is my backpack. I never thought about that. Frogs lay eggs in water, and this keeps them wet.
+A bee is an insect that can fly. I know that the bus is late. The book that I read was long.
+EXPECT:
++ demonstratives | give this to
++ demonstratives | These seeds
++ demonstratives | those seeds
++ demonstratives | That is my
++ demonstratives | about that
++ demonstratives | this keeps
+- demonstratives | insect that can fly
+- demonstratives | know that the bus
+- demonstratives | book that I read

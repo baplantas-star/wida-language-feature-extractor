@@ -1,0 +1,14 @@
+# SYNTHETIC — no student data
+SCORES: pronoun-referencing
+TEXT:
+Elena is fast. She ran to school. The turtles crossed the road, and they reached the pond.
+Marco lost his hat. The teacher thanked him. The volcano erupted, and its ash covered the town.
+It is raining today. It seems late. I like the park.
+EXPECT:
++ pronoun-referencing | She ran
++ pronoun-referencing | they reached
++ pronoun-referencing | his hat
++ pronoun-referencing | thanked him
++ pronoun-referencing | its ash
+- pronoun-referencing | It is raining
+- pronoun-referencing | It seems late

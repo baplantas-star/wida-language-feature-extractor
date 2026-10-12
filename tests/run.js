@@ -21,6 +21,7 @@ function parseSample(file) {
   const expectAt = lines.indexOf('EXPECT:');
   if (textAt < 0 || expectAt < textAt) throw new Error(`${file}: needs a TEXT: section followed by an EXPECT: section`);
   const text = lines.slice(textAt + 1, expectAt).join('\n');
+  const scoresLine = lines.slice(0, textAt).find((l) => l.startsWith('SCORES:'));
   const expectations = [];
   for (const line of lines.slice(expectAt + 1)) {
     if (!line.trim() || line.startsWith('#')) continue;
@@ -32,7 +33,11 @@ function parseSample(file) {
     if (text.indexOf(quote, start + 1) >= 0) throw new Error(`${file}: "${quote}" appears more than once; quote more words`);
     expectations.push({ positive: m[1] === '+', featureId: m[2], start, end: start + quote.length, quote });
   }
-  return { name: path.basename(file), text, expectations };
+  // Only the features a sample lists are scored on it; other detectors' output is ignored there.
+  const scores = new Set(scoresLine
+    ? scoresLine.slice('SCORES:'.length).split(',').map((x) => x.trim()).filter(Boolean)
+    : expectations.map((e) => e.featureId));
+  return { name: path.basename(file), text, expectations, scores };
 }
 
 const overlaps = (a, b) => a.start < b.end && b.start < a.end;
@@ -46,7 +51,7 @@ const stats = {};
 const statFor = (id) => (stats[id] ||= { tp: 0, fn: 0, fp: 0, nearMissFired: 0, annotated: 0, nearMisses: 0, details: [] });
 
 for (const sample of samples) {
-  const { detections } = analyze(sample.text);
+  const detections = analyze(sample.text).detections.filter((d) => sample.scores.has(d.featureId));
   const used = new Set();
   for (const e of sample.expectations) {
     const s = statFor(e.featureId);
@@ -65,9 +70,10 @@ for (const sample of samples) {
   });
 }
 
-for (const d of detectors) statFor(d.featureId);
+for (const d of detectors) for (const id of d.featureIds || [d.featureId]) statFor(id);
 
 console.log(`\nSamples: ${samples.length} file(s). Detectors: ${detectors.length}.`);
+console.log('Note: these samples were written by the same author as the rules, so the numbers are a floor check, not a field estimate.');
 const ids = Object.keys(stats).sort();
 if (ids.length === 0) {
   console.log('No detectors and no annotations yet — nothing to score.');

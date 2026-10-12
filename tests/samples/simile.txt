@@ -1,0 +1,15 @@
+# SYNTHETIC — no student data
+SCORES: simile
+TEXT:
+Her smile was as bright as the sun. The puppy ran like the wind. The clouds looked like a pile of cotton.
+His voice was as soft as a whisper. The engine roared like a lion.
+I would like a sandwich. We arrived as soon as we could. Bring pencils as well as paper. I like the beach.
+EXPECT:
++ simile | as bright as
++ simile | like the wind
++ simile | like a pile
++ simile | as soft as
++ simile | like a lion
+- simile | like a sandwich
+- simile | as soon as
+- simile | as well as

@@ -1,0 +1,14 @@
+# SYNTHETIC — no student data
+SCORES: hedging
+TEXT:
+Perhaps the bridge will be finished next year. Maybe we should try a different plan.
+The storm could reach the coast tonight. It seems like the plants need more light.
+The results were possibly caused by the cold. She pushed the door with all her might.
+The test is on Monday. Water boils at one hundred degrees.
+EXPECT:
++ hedging | Perhaps
++ hedging | Maybe
++ hedging | could
++ hedging | seems
++ hedging | possibly
+- hedging | all her might

@@ -1,0 +1,31 @@
+# SYNTHETIC — no student data
+# Check passage: annotated before the detectors were run on it. Do not tune rules to it.
+SCORES: repetition, demonstratives, pronoun-referencing, coordinating-conjunctions, complex-reasons, complex-time, complex-comparisons, complex-conditions, modal-verbs, hedging, simile
+TEXT:
+Last summer my family visited a lake in the mountains. The lake was as clear as glass, and we could see fish near the bottom.
+My brother wanted to swim, but the water was freezing. He jumped in anyway because he is brave.
+When he came out, his lips were blue like a blueberry. Maybe next year we will go in August, since it might be warmer then.
+That would be fun. Those trips are my favorite memories.
+EXPECT:
++ repetition | The lake was
++ demonstratives | That would
++ demonstratives | Those trips
++ pronoun-referencing | He jumped
++ pronoun-referencing | he is brave
++ pronoun-referencing | he came out
++ pronoun-referencing | his lips
+- pronoun-referencing | it might be warmer
++ coordinating-conjunctions | and we could see
++ coordinating-conjunctions | but the water
++ complex-reasons | because he is brave
++ complex-time | When he came out
++ complex-reasons | since it might
++ modal-verbs | could see
++ modal-verbs | will go
++ modal-verbs | might be warmer
++ modal-verbs | would be fun
++ hedging | Maybe
++ hedging | might be warmer
+- hedging | could see
++ simile | as clear as glass
++ simile | like a blueberry

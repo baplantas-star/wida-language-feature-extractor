@@ -1,0 +1,21 @@
+# SYNTHETIC — no student data
+SCORES: modal-verbs
+TEXT:
+I can swim across the pool. We might visit the museum on Friday.
+You should drink water every day. Students must wear goggles in the lab.
+Would you pass the salt? She cannot find her pencil. They won't be late.
+Mom opened a can of soup. My birthday is in May. May is a warm month.
+He has the will to win. May I borrow a pen?
+EXPECT:
++ modal-verbs | can swim
++ modal-verbs | might
++ modal-verbs | should
++ modal-verbs | must
++ modal-verbs | Would
++ modal-verbs | cannot
++ modal-verbs | won't
++ modal-verbs | May I
+- modal-verbs | a can of soup
+- modal-verbs | in May.
+- modal-verbs | May is a warm month
+- modal-verbs | the will to win

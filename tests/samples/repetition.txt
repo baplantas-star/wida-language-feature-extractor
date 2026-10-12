@@ -1,0 +1,15 @@
+# SYNTHETIC — no student data
+SCORES: repetition
+TEXT:
+My sister and I found a turtle. The turtle was green with yellow stripes.
+I like apples. I like grapes. Plants need water. Water helps roots grow.
+The bus was late today. We walked home with our friends.
+Volcanoes form near plate edges. Most volcanoes are in the Pacific.
+The rocket launched at noon. Everyone cheered loudly.
+EXPECT:
++ repetition | turtle was
++ repetition | I like grapes
++ repetition | Water helps
++ repetition | Most volcanoes
+- repetition | We walked
+- repetition | Everyone cheered

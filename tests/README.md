@@ -18,6 +18,7 @@ the header line exactly as shown.
 ```
 # SYNTHETIC — no student data
 # Any other line starting with # is a comment.
+SCORES: feature-id, other-feature-id
 TEXT:
 The passage to analyze goes here. It can run
 over several lines.
@@ -31,5 +32,8 @@ EXPECT:
 - `-` lines are near-misses: look-alikes that should **not** fire. Any detection of
   that feature touching those words counts as a false positive, and the report
   lists it separately.
+- `SCORES:` (optional) lists the features this sample is fully annotated for. Only
+  those features are scored on it, so a modal-verb sample doesn't count every
+  pronoun as a false positive. Without it, the features named in `EXPECT` are scored.
 - A detection matches a `+` line if it is the same feature and overlaps the
   quoted words.

@@ -1,0 +1,30 @@
+# SYNTHETIC — no student data
+SCORES: complex-reasons, complex-time, complex-comparisons, complex-conditions
+TEXT:
+I run because it is fun. Since we were early, we sat in front. Bring a coat in case it gets cold.
+The field flooded as a result of the storm. When I run, I get tired. We ate lunch after the bell rang.
+Before you leave, turn off the lights. Like many of their friends, they run every day.
+He talked as if he knew the answer. You will have fun if you run. Plants die unless they get water.
+You can play as long as you finish your work.
+We stayed inside because of the rain. When is the field trip? Before lunch we read.
+I have lived here since May. After school we played soccer. I like cats.
+EXPECT:
++ complex-reasons | because it is fun
++ complex-reasons | Since we were early
++ complex-reasons | in case it gets cold
++ complex-reasons | as a result of
++ complex-time | When I run
++ complex-time | after the bell rang
++ complex-time | Before you leave
++ complex-comparisons | Like many of their friends
++ complex-comparisons | as if he knew
++ complex-conditions | if you run
++ complex-conditions | unless they get water
++ complex-conditions | as long as you finish
+- complex-reasons | because of the rain
+- complex-time | When is the field trip
+- complex-time | Before lunch
+- complex-reasons | since May
+- complex-time | After school
+- complex-comparisons | I like cats
+- complex-conditions | I have lived here

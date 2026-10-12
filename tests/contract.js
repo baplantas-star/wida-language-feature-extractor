@@ -7,7 +7,7 @@ const assert = require('assert');
 const { analyze } = require('../engine');
 
 const text = 'Plants need sunlight. Dr. Lee watered them daily!  Did they grow?';
-const result = analyze(text);
+const result = analyze(text, { detectors: [] });
 
 assert.deepStrictEqual(result.sentences.map((s) => s.text), [
   'Plants need sunlight.',
@@ -35,4 +35,18 @@ assert.deepStrictEqual(withFake.detections, [{
 const broken = { ...fake, detect: () => [{ level: 'word', start: 5, end: 999 }] };
 assert.throws(() => analyze(text, { detectors: [broken] }), /bad span/);
 
+
+
+// Every real detector must produce valid detections and match an inventory feature.
+const inventory = require('../inventory/features.json');
+const detectors = require('../engine/detectors');
+const known = new Set(inventory.features.map((f) => f.id));
+for (const d of detectors) {
+  for (const id of d.featureIds || [d.featureId]) {
+    assert(known.has(id), `${d.ruleId}: feature "${id}" is not in the inventory`);
+    const feature = inventory.features.find((f) => f.id === id);
+    assert(feature.detectors.includes(d.ruleId), `inventory entry "${id}" does not list detector ${d.ruleId}`);
+  }
+}
+analyze('When I run, I get tired, but it is fun. Perhaps that is why. She was as quick as a fox.');
 console.log('Contract check passed.');

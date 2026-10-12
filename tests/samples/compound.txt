@@ -1,0 +1,18 @@
+# SYNTHETIC — no student data
+SCORES: coordinating-conjunctions
+TEXT:
+I ran, and they slept. I wanted to run, but it was raining. Can we go running, or will you be too busy?
+I finished, so now let's eat. The seed was small, yet the tree grew tall. She was tired but she kept going.
+We bought red and blue paint. Mom and I went to the store. Do you want milk or juice?
+The class read books, wrote stories, and drew pictures.
+EXPECT:
++ coordinating-conjunctions | and they slept
++ coordinating-conjunctions | but it was raining
++ coordinating-conjunctions | or will you
++ coordinating-conjunctions | so now
++ coordinating-conjunctions | yet the tree
++ coordinating-conjunctions | but she kept
+- coordinating-conjunctions | red and blue
+- coordinating-conjunctions | Mom and I
+- coordinating-conjunctions | milk or juice
+- coordinating-conjunctions | and drew pictures
