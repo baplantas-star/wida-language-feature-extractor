@@ -1,0 +1,58 @@
+<div id="app">
+  <h2>WIDA Language Feature Extractor</h2>
+  <p class="note">Shows where language features appear, with the exact words and the rule that found them. It does not score writing or estimate proficiency.</p>
+  <textarea id="input" placeholder="Paste text here"></textarea>
+  <div>
+    <button id="use-selection" hidden>Use my selection</button>
+    <button id="analyze">Find features</button>
+  </div>
+  <div id="results"></div>
+</div>
+<script>
+(function () {
+  var input = document.getElementById('input');
+  var results = document.getElementById('results');
+  var selectionButton = document.getElementById('use-selection');
+
+  if (document.body.getAttribute('data-surface') === 'sidebar') {
+    selectionButton.hidden = false;
+    selectionButton.onclick = function () {
+      google.script.run.withSuccessHandler(function (text) {
+        input.value = text || '';
+        if (!text) results.textContent = 'Nothing is selected.';
+      }).getSelectedText();
+    };
+  }
+
+  document.getElementById('analyze').onclick = function () {
+    var result = window.WidaEngine.analyze(input.value);
+    results.innerHTML = '';
+    var summary = document.createElement('p');
+    summary.textContent = result.sentences.length + ' sentence(s), ' +
+      result.tokens.filter(function (t) { return t.isWord; }).length + ' word(s), ' +
+      result.detections.length + ' detection(s).';
+    results.appendChild(summary);
+    if (result.detections.length === 0) {
+      var none = document.createElement('p');
+      none.className = 'note';
+      none.textContent = 'No detectors are installed yet.';
+      results.appendChild(none);
+    }
+    result.detections.forEach(function (d) {
+      var row = document.createElement('div');
+      row.className = 'detection';
+      var mark = document.createElement('mark');
+      mark.textContent = d.text;
+      row.appendChild(mark);
+      row.appendChild(document.createTextNode(' — ' + d.featureId + ' (' + d.ruleId + ', ' + d.tier + ')'));
+      if (d.explanation) {
+        var why = document.createElement('div');
+        why.className = 'note';
+        why.textContent = d.explanation;
+        row.appendChild(why);
+      }
+      results.appendChild(row);
+    });
+  };
+})();
+</script>
