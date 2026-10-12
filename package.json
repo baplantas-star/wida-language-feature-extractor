@@ -1,0 +1,9 @@
+{
+  "name": "wida-language-feature-extractor",
+  "private": true,
+  "description": "Rule-based detection of WIDA language features in text. No runtime AI.",
+  "scripts": {
+    "build": "node build/build.js",
+    "test": "node tests/run.js"
+  }
+}
