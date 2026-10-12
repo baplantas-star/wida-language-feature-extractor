@@ -1,0 +1,6 @@
+# SYNTHETIC — no student data
+# Format example only. No detectors exist yet, so there are no EXPECT lines.
+TEXT:
+Plants need sunlight to grow. Dr. Lee put one plant in a closet and one by
+the window. After a week, the plant by the window was taller!
+EXPECT:
