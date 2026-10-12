@@ -35,7 +35,7 @@
     if (result.detections.length === 0) {
       var none = document.createElement('p');
       none.className = 'note';
-      none.textContent = 'No detectors are installed yet.';
+      none.textContent = 'No features found.';
       results.appendChild(none);
     }
     result.detections.forEach(function (d) {
@@ -44,7 +44,15 @@
       var mark = document.createElement('mark');
       mark.textContent = d.text;
       row.appendChild(mark);
-      row.appendChild(document.createTextNode(' — ' + d.featureId + ' (' + d.ruleId + ', ' + d.tier + ')'));
+      var f = window.WidaEngine.features[d.featureId] || { widaName: d.featureId };
+      var label = ' — ' + f.widaName + (f.page ? ' (WIDA Language Charts, p. ' + f.page + ')' : '');
+      row.appendChild(document.createTextNode(label));
+      var meta = document.createElement('div');
+      meta.className = 'note';
+      meta.textContent = 'Rule: ' + d.ruleId +
+        (d.tier === 'interpretive-candidate' ? ' · candidate, needs a reader to confirm' : '') +
+        (f.status === 'unvalidated' ? ' · unvalidated' : '');
+      row.appendChild(meta);
       if (d.explanation) {
         var why = document.createElement('div');
         why.className = 'note';

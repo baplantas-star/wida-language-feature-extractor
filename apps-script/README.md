@@ -33,3 +33,10 @@ without the extension for HTML files):
 4. `Styles` (HTML)
 5. `Ui` (HTML)
 6. `Engine` (HTML)
+
+### Release 1 — first detectors
+
+Replace these two files (everything else unchanged):
+
+1. `Engine` (HTML)
+2. `Ui` (HTML)

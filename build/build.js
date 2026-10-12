@@ -11,6 +11,14 @@ const root = path.join(__dirname, '..');
 const engineDir = path.join(root, 'engine');
 const outFile = path.join(root, 'apps-script', 'Engine.html');
 
+const inventory = JSON.parse(fs.readFileSync(path.join(root, 'inventory', 'features.json'), 'utf8'));
+// Only what the interface needs: names, citations, and validation status.
+const features = {};
+for (const f of inventory.features) {
+  if (f.detectors.length === 0) continue;
+  features[f.id] = { widaName: f.widaName, dimension: f.dimension, page: f.source.page, status: f.mapping.status };
+}
+
 const files = fs.readdirSync(engineDir).filter((f) => f.endsWith('.js')).sort();
 
 const modules = files.map((file) => {
@@ -35,6 +43,7 @@ ${modules.join(',\n')}
     return module.exports;
   }
   window.WidaEngine = load('./index');
+  window.WidaEngine.features = ${JSON.stringify(features)};
 })();
 </script>
 `;
