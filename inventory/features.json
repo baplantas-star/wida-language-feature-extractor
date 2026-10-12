@@ -1,4 +1,6658 @@
 {
-  "schemaVersion": 1,
-  "features": []
+  "schemaVersion": 2,
+  "source": "S1",
+  "features": [
+    {
+      "id": "coherence",
+      "widaName": "Coherence",
+      "parent": null,
+      "dimension": "discourse",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 25
+      },
+      "chartTerms": [
+        "coherent"
+      ],
+      "chartMentions": [
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "coherent"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "coherent"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "coherent"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Judging logical consistency and focus needs a reader; not detectable by rules.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "cohesion",
+      "widaName": "Cohesion",
+      "parent": null,
+      "dimension": "discourse",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 25
+      },
+      "chartTerms": [
+        "cohesion",
+        "cohesive"
+      ],
+      "chartMentions": [
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "cohesive"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "cohesive"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "cohesive"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "cohesive"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "cohesion"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "cohesion"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Umbrella term; detected through its cohesive devices below.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "cohesive-devices",
+      "widaName": "Cohesive devices",
+      "parent": "cohesion",
+      "dimension": "discourse",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 25
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Umbrella term; see the individual devices.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "repetition",
+      "widaName": "Repetition",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Sentences",
+      "source": {
+        "ref": "S1",
+        "page": 25
+      },
+      "chartTerms": [
+        "repetition",
+        "repeated phrases"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "repetition"
+        },
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "repeated phrases"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "repetition"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "repetition"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "repeated phrases"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "repetition"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "repeated phrases"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "repetition"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "repetition"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "repetition"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "repeated phrases"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "repetition"
+        }
+      ],
+      "mapping": {
+        "tier": "lexical",
+        "construct": "The same content word or opening phrase recurring in nearby sentences",
+        "rationale": "Repeating a word or phrase across sentences is the cohesive tie WIDA describes; recurring content words are directly observable.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "repetition.content-word"
+      ]
+    },
+    {
+      "id": "demonstratives",
+      "widaName": "Demonstratives (this, that, these, those)",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Sentences",
+      "source": {
+        "ref": "S1",
+        "page": 25
+      },
+      "chartTerms": [
+        "demonstratives"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "demonstratives"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "demonstratives"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "demonstratives"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "demonstratives"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "demonstratives"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "demonstratives"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "demonstratives"
+        }
+      ],
+      "mapping": {
+        "tier": "lexical",
+        "construct": "The words this, that, these, those used as pointing words (not 'that' introducing a clause)",
+        "rationale": "WIDA lists the four words; 'that' is excluded when it introduces a clause because there it is not pointing back to anything.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "demonstratives.word"
+      ]
+    },
+    {
+      "id": "pronoun-referencing",
+      "widaName": "Pronoun referencing",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Sentences",
+      "source": {
+        "ref": "S1",
+        "page": 26
+      },
+      "chartTerms": [
+        "pronouns"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "pronouns"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "pronouns"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "pronouns"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "pronouns"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "pronouns"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "pronouns"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "pronouns"
+        }
+      ],
+      "mapping": {
+        "tier": "interpretive-candidate",
+        "construct": "Third-person pronouns (he, she, it, they and their other forms) that can point back to an earlier noun",
+        "rationale": "These pronouns usually refer back to something named earlier; confirming the referent needs a reader, so detections are candidates.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "pronoun-referencing.third-person"
+      ]
+    },
+    {
+      "id": "synonyms-cohesion",
+      "widaName": "Synonyms",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Sentences",
+      "source": {
+        "ref": "S1",
+        "page": 26
+      },
+      "chartTerms": [
+        "synonyms"
+      ],
+      "chartMentions": [
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "synonyms"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "synonyms"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "synonyms"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "synonyms"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "synonyms"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs a synonym dictionary or model; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "classification",
+      "widaName": "Classification",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Sentences",
+      "source": {
+        "ref": "S1",
+        "page": 26
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs meaning; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "ellipsis",
+      "widaName": "Ellipsis",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Sentences",
+      "source": {
+        "ref": "S1",
+        "page": 26
+      },
+      "chartTerms": [
+        "ellipsis"
+      ],
+      "chartMentions": [
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "ellipsis"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "ellipsis"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "ellipsis"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "ellipsis"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Detecting omitted words needs a parser; deferred until a parse-tier engine exists.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "substitution",
+      "widaName": "Substitution",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Sentences",
+      "source": {
+        "ref": "S1",
+        "page": 26
+      },
+      "chartTerms": [
+        "substitution"
+      ],
+      "chartMentions": [
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "substitution"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "substitution"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "substitution"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "substitution"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Words like 'one' and 'do so' are possible signals but mostly false alarms without a parser; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "parallelism",
+      "widaName": "Parallelism",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Sentences",
+      "source": {
+        "ref": "S1",
+        "page": 26
+      },
+      "chartTerms": [
+        "parallel"
+      ],
+      "chartMentions": [
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "parallel"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "parallel"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "parallel"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "parallel"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "parallel"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "parallel"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "parallel"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs part-of-speech tagging; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "whole-part",
+      "widaName": "Whole/part",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Paragraphs",
+      "source": {
+        "ref": "S1",
+        "page": 26
+      },
+      "chartTerms": [
+        "whole/part"
+      ],
+      "chartMentions": [
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "whole/part"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "whole/part"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "whole/part"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs meaning; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "class-subclass",
+      "widaName": "Class/subclass",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Paragraphs",
+      "source": {
+        "ref": "S1",
+        "page": 26
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs meaning; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "given-new",
+      "widaName": "Given/new information [theme/rheme structuring]",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Paragraphs",
+      "source": {
+        "ref": "S1",
+        "page": 26
+      },
+      "chartTerms": [
+        "given/new"
+      ],
+      "chartMentions": [
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "given/new"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "given/new"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "given/new"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs meaning across sentences; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "paragraph-openers",
+      "widaName": "Paragraph openers",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Paragraphs",
+      "source": {
+        "ref": "S1",
+        "page": 26
+      },
+      "chartTerms": [
+        "paragraph openers"
+      ],
+      "chartMentions": [
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "paragraph openers"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "paragraph openers"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "paragraph openers"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later: first sentence of each paragraph, but whether it 'provides a clear topic' needs a reader.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "organization",
+      "widaName": "Organization",
+      "parent": "cohesive-devices",
+      "dimension": "discourse",
+      "group": "Linking Ideas Within and Across Paragraphs",
+      "source": {
+        "ref": "S1",
+        "page": 27
+      },
+      "chartTerms": [
+        "organizational patterns"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "organizational patterns"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "organizational patterns"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Whole-text structure; needs a reader.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "density",
+      "widaName": "Density",
+      "parent": null,
+      "dimension": "discourse",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 27
+      },
+      "chartTerms": [
+        "noun groups"
+      ],
+      "chartMentions": [
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Umbrella term; see elaborating and condensing text.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "elaborating-text",
+      "widaName": "Elaborating text",
+      "parent": "density",
+      "dimension": "discourse",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 27
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Umbrella term; see the devices below.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "simple-connectors",
+      "widaName": "Simple connectors",
+      "parent": "elaborating-text",
+      "dimension": "discourse",
+      "group": "Elaborating text",
+      "source": {
+        "ref": "S1",
+        "page": 27
+      },
+      "chartTerms": [
+        "noun groups with conjunctions"
+      ],
+      "chartMentions": [
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "noun groups with conjunctions"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "noun groups with conjunctions"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "noun groups with conjunctions"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups with conjunctions"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups with conjunctions"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with part-of-speech tagging (and/or between two nouns).",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "classifiers",
+      "widaName": "Classifiers",
+      "parent": "elaborating-text",
+      "dimension": "discourse",
+      "group": "Elaborating text",
+      "source": {
+        "ref": "S1",
+        "page": 27
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs part-of-speech tagging; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "prepositional-phrases-density",
+      "widaName": "Prepositional phrases",
+      "parent": "elaborating-text",
+      "dimension": "discourse",
+      "group": "Elaborating text",
+      "source": {
+        "ref": "S1",
+        "page": 27
+      },
+      "chartTerms": [
+        "noun groups with prepositional phrases"
+      ],
+      "chartMentions": [
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "noun groups with prepositional phrases"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "noun groups with prepositional phrases"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "noun groups with prepositional phrases"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "noun groups with prepositional phrases"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "noun groups with prepositional phrases"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups with prepositional phrases"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "noun groups with prepositional phrases"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs part-of-speech tagging to tell a phrase after a noun from one after a verb; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "embedded-clauses",
+      "widaName": "Embedded clauses after the noun",
+      "parent": "elaborating-text",
+      "dimension": "discourse",
+      "group": "Elaborating text",
+      "source": {
+        "ref": "S1",
+        "page": 27
+      },
+      "chartTerms": [
+        "embedded clauses",
+        "noun groups with clauses"
+      ],
+      "chartMentions": [
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "noun groups with clauses"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "noun groups with clauses"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "noun groups with clauses"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "embedded clauses"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "embedded clauses"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "noun groups with clauses"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later: who/which/that after a noun; needs part-of-speech tagging to avoid false alarms.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "added-details",
+      "widaName": "Added details characteristic of purpose and content area",
+      "parent": "elaborating-text",
+      "dimension": "discourse",
+      "group": "Elaborating text",
+      "source": {
+        "ref": "S1",
+        "page": 27
+      },
+      "chartTerms": [
+        "contextual details"
+      ],
+      "chartMentions": [
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "contextual details"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "contextual details"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "contextual details"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "contextual details"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "contextual details"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs a reader.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "condensing-text",
+      "widaName": "Condensing text",
+      "parent": "density",
+      "dimension": "discourse",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 27
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Umbrella term; see nominalization.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "nominalization",
+      "widaName": "Nominalization",
+      "parent": "condensing-text",
+      "dimension": "discourse",
+      "group": "Condensing text",
+      "source": {
+        "ref": "S1",
+        "page": 27
+      },
+      "chartTerms": [
+        "nominalization"
+      ],
+      "chartMentions": [
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "nominalization"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "nominalization"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "nominalization"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later: nouns ending in -tion, -ment, -ness built from verbs or adjectives; needs a word list to avoid words like 'station'.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "sentence-fragment",
+      "widaName": "Sentence fragment",
+      "parent": null,
+      "dimension": "sentence",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 28
+      },
+      "chartTerms": [
+        "sentence fragments"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "sentence fragments"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "sentence fragments"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs part-of-speech tagging to find a missing subject or verb; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "clause",
+      "widaName": "Clause",
+      "parent": null,
+      "dimension": "sentence",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 28
+      },
+      "chartTerms": [
+        "clause"
+      ],
+      "chartMentions": [
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "clause"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "clause"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "clause"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Umbrella term.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "independent-clause",
+      "widaName": "Independent clause",
+      "parent": "clause",
+      "dimension": "sentence",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 28
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs a parser; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "dependent-clause",
+      "widaName": "Dependent clause",
+      "parent": "clause",
+      "dimension": "sentence",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 28
+      },
+      "chartTerms": [
+        "dependent clauses"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Detected through the complex-sentence categories below.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "simple-sentences",
+      "widaName": "Simple sentences",
+      "parent": null,
+      "dimension": "sentence",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 28
+      },
+      "chartTerms": [
+        "simple sentences",
+        "simple and compound"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "simple and compound"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "simple and compound"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "simple and compound"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "simple and compound"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "simple and compound"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "simple and compound"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "simple and compound"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "simple and compound"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "simple and compound"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "simple and compound"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "simple sentences"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs a parser to confirm a single clause; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "compound-sentences",
+      "widaName": "Compound sentences",
+      "parent": null,
+      "dimension": "sentence",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 28
+      },
+      "chartTerms": [
+        "compound"
+      ],
+      "chartMentions": [
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "compound"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Detected through coordinating conjunctions.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "coordinating-conjunctions",
+      "widaName": "Coordinating conjunctions",
+      "parent": "compound-sentences",
+      "dimension": "sentence",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 28
+      },
+      "chartTerms": [
+        "compound"
+      ],
+      "chartMentions": [
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "compound"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "compound"
+        }
+      ],
+      "mapping": {
+        "tier": "lexical",
+        "construct": "for, and, nor, but, or, yet, so joining two clauses: after a comma or semicolon and followed by a new subject (I, you, he, she, it, we, they, there, this, that, the, a)",
+        "rationale": "WIDA lists these seven conjunctions for compound sentences. Requiring a comma plus a following subject keeps out lists such as 'red and blue'.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "compound.coordinator"
+      ]
+    },
+    {
+      "id": "complex-sentences",
+      "widaName": "Complex sentences",
+      "parent": null,
+      "dimension": "sentence",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 29
+      },
+      "chartTerms": [
+        "complex sentences"
+      ],
+      "chartMentions": [
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "complex sentences"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Detected through the four categories below.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "complex-reasons",
+      "widaName": "Reasons (because, since, in case, as a result of)",
+      "parent": "complex-sentences",
+      "dimension": "sentence",
+      "group": "Complex sentences",
+      "source": {
+        "ref": "S1",
+        "page": 29
+      },
+      "chartTerms": [
+        "complex sentences",
+        "dependent clauses"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        }
+      ],
+      "mapping": {
+        "tier": "lexical",
+        "construct": "because; since, in case followed by a subject; as a result of",
+        "rationale": "The words WIDA lists. 'since' and 'in case' must be followed by a subject so that 'since Monday' does not fire. WIDA lists 'as a result of' here even though it is followed by a noun; we follow WIDA.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "complex.subordinator"
+      ]
+    },
+    {
+      "id": "complex-time",
+      "widaName": "Time (when, as long as, after, before)",
+      "parent": "complex-sentences",
+      "dimension": "sentence",
+      "group": "Complex sentences",
+      "source": {
+        "ref": "S1",
+        "page": 29
+      },
+      "chartTerms": [
+        "complex sentences",
+        "dependent clauses"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        }
+      ],
+      "mapping": {
+        "tier": "lexical",
+        "construct": "when, after, before followed by a subject; not a question word",
+        "rationale": "The words WIDA lists. Requiring a subject keeps out phrases like 'before lunch' (a fragment example in WIDA) and questions like 'When is lunch?'. 'as long as' is counted under Conditions only, to avoid double counting.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "complex.subordinator"
+      ]
+    },
+    {
+      "id": "complex-comparisons",
+      "widaName": "Comparisons (like, as if)",
+      "parent": "complex-sentences",
+      "dimension": "sentence",
+      "group": "Complex sentences",
+      "source": {
+        "ref": "S1",
+        "page": 29
+      },
+      "chartTerms": [
+        "complex sentences",
+        "dependent clauses"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        }
+      ],
+      "mapping": {
+        "tier": "interpretive-candidate",
+        "construct": "as if; sentence-initial 'Like' followed by a comma later in the sentence",
+        "rationale": "WIDA lists 'like' and 'as if'. 'like' is usually a verb ('I like cats'), so it only counts in WIDA's own pattern of an opening 'Like ...,' phrase.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "complex.subordinator"
+      ]
+    },
+    {
+      "id": "complex-conditions",
+      "widaName": "Conditions (if, unless, as long as)",
+      "parent": "complex-sentences",
+      "dimension": "sentence",
+      "group": "Complex sentences",
+      "source": {
+        "ref": "S1",
+        "page": 29
+      },
+      "chartTerms": [
+        "complex sentences",
+        "dependent clauses"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "complex sentences"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "dependent clauses"
+        }
+      ],
+      "mapping": {
+        "tier": "lexical",
+        "construct": "if, unless, as long as",
+        "rationale": "The words WIDA lists; all three almost always begin a condition clause.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "complex.subordinator"
+      ]
+    },
+    {
+      "id": "precision",
+      "widaName": "Precision",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 29
+      },
+      "chartTerms": [
+        "precise"
+      ],
+      "chartMentions": [
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "precise"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "precise"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "precise"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "precise"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "precise"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "precise"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "WIDA's criterion for the whole Word/Phrase dimension, not a single feature.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "phrase",
+      "widaName": "Phrase",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 30
+      },
+      "chartTerms": [
+        "phrases"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "phrases"
+        },
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "phrases"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "phrases"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "phrases"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "phrases"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "phrases"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "phrases"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "discourse",
+          "term": "phrases"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "phrases"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "phrases"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "sentence",
+          "term": "phrases"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Umbrella term.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "noun-phrase",
+      "widaName": "Noun phrase",
+      "parent": "phrase",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 30
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs part-of-speech tagging; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "prepositional-phrase",
+      "widaName": "Prepositional phrase",
+      "parent": "phrase",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 30
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs part-of-speech tagging; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "adjective-phrase",
+      "widaName": "Adjective phrase",
+      "parent": "phrase",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 30
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs part-of-speech tagging; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "verb-phrase",
+      "widaName": "Verb phrase",
+      "parent": "phrase",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 30
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs part-of-speech tagging; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "cognates",
+      "widaName": "Cognates",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 30
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Depends on the student's other languages; not detectable from English text alone.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "collocations",
+      "widaName": "Collocations",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 30
+      },
+      "chartTerms": [
+        "collocations"
+      ],
+      "chartMentions": [
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "collocations"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "collocations"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "collocations"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "collocations"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "collocations"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "collocations"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "collocations"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "collocations"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "collocations"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "collocations"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with a collocation list.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "evaluative-language",
+      "widaName": "Evaluative language",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 31
+      },
+      "chartTerms": [
+        "evaluative expressions"
+      ],
+      "chartMentions": [
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "evaluative expressions"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "evaluative expressions"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "evaluative expressions"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "evaluative expressions"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "evaluative expressions"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "evaluative expressions"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with an evaluative word list; whether a word is evaluative depends on context.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "figurative-language",
+      "widaName": "Figurative language",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 31
+      },
+      "chartTerms": [
+        "figurative language"
+      ],
+      "chartMentions": [
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "figurative language"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Umbrella term.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "simile",
+      "widaName": "Simile",
+      "parent": "figurative-language",
+      "dimension": "word",
+      "group": "Figurative language",
+      "source": {
+        "ref": "S1",
+        "page": 31
+      },
+      "chartTerms": [
+        "figurative language"
+      ],
+      "chartMentions": [
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "figurative language"
+        }
+      ],
+      "mapping": {
+        "tier": "interpretive-candidate",
+        "construct": "as + one word + as (e.g. as bright as); 'like a/an' after a verb such as was, is, looked, sounded, felt, ran, moved",
+        "rationale": "WIDA defines a simile as a comparison using 'as' or 'like'. These patterns catch the common forms; whether two unlike things are compared needs a reader.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "simile.as-like"
+      ]
+    },
+    {
+      "id": "metaphor",
+      "widaName": "Metaphor",
+      "parent": "figurative-language",
+      "dimension": "word",
+      "group": "Figurative language",
+      "source": {
+        "ref": "S1",
+        "page": 31
+      },
+      "chartTerms": [
+        "figurative language"
+      ],
+      "chartMentions": [
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "figurative language"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs meaning; not detectable by rules.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "personification",
+      "widaName": "Personification",
+      "parent": "figurative-language",
+      "dimension": "word",
+      "group": "Figurative language",
+      "source": {
+        "ref": "S1",
+        "page": 31
+      },
+      "chartTerms": [
+        "figurative language"
+      ],
+      "chartMentions": [
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "figurative language"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs meaning; not detectable by rules.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "hyperbole",
+      "widaName": "Hyperbole",
+      "parent": "figurative-language",
+      "dimension": "word",
+      "group": "Figurative language",
+      "source": {
+        "ref": "S1",
+        "page": 31
+      },
+      "chartTerms": [
+        "figurative language"
+      ],
+      "chartMentions": [
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "figurative language"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "figurative language"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with a list of stock exaggerations (e.g. 'a million times').",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "high-frequency-words",
+      "widaName": "High-frequency words",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 31
+      },
+      "chartTerms": [
+        "high-frequency words"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "high-frequency words"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "high-frequency words"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "high-frequency words"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "high-frequency words"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "high-frequency words"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "high-frequency words"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with a published high-frequency word list.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "phonetically-decodable-words",
+      "widaName": "Phonetically decodable words",
+      "parent": "high-frequency-words",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 31
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with a word list.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "irregular-spellings",
+      "widaName": "Words with irregular spellings",
+      "parent": "high-frequency-words",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 31
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with a sight-word list.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "hedging",
+      "widaName": "Hedging",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 31
+      },
+      "chartTerms": [
+        "hedging"
+      ],
+      "chartMentions": [
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "hedging"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "hedging"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "hedging"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "hedging"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "hedging"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "hedging"
+        }
+      ],
+      "mapping": {
+        "tier": "interpretive-candidate",
+        "construct": "perhaps, maybe, possibly, probably; seem/seems/seemed; might; could",
+        "rationale": "WIDA's examples use perhaps, maybe, could, and seems. 'could' and 'might' also mark ability or past ability, so all hedging detections are candidates.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "hedging.word"
+      ]
+    },
+    {
+      "id": "idioms",
+      "widaName": "Idioms/idiomatic expressions",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 32
+      },
+      "chartTerms": [
+        "idiomatic expressions"
+      ],
+      "chartMentions": [
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "idiomatic expressions"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "idiomatic expressions"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "idiomatic expressions"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "idiomatic expressions"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "idiomatic expressions"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "idiomatic expressions"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "idiomatic expressions"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "idiomatic expressions"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "idiomatic expressions"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "idiomatic expressions"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with an idiom list.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "modal-verbs",
+      "widaName": "Modal verbs",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 32
+      },
+      "chartTerms": [
+        "modal verbs"
+      ],
+      "chartMentions": [
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "modal verbs"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "modal verbs"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "modal verbs"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "modal verbs"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "modal verbs"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "modal verbs"
+        }
+      ],
+      "mapping": {
+        "tier": "lexical",
+        "construct": "can, could, may, might, must, shall, should, will, would (and cannot, can't, won't, etc.) used as helping verbs",
+        "rationale": "Modal verbs are a closed list. Noun uses are excluded ('a can of soup', 'free will', the month 'May'). WIDA's sub-meanings (ability, possibility, request, necessity) need a reader, so the detector does not label them.",
+        "status": "unvalidated",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": [
+        "modal-verbs.word"
+      ]
+    },
+    {
+      "id": "multiple-meanings",
+      "widaName": "Multiple Meanings",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 32
+      },
+      "chartTerms": [
+        "multiple meanings",
+        "multiple-meaning"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "multiple-meaning"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "multiple meanings"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "multiple-meaning"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "multiple meanings"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "multiple-meaning"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "multiple meanings"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "multiple-meaning"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "multiple meanings"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "multiple-meaning"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "multiple meanings"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "multiple-meaning"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "multiple meanings"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs meaning; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "homonyms",
+      "widaName": "Homonyms",
+      "parent": "multiple-meanings",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 32
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with a homonym list; whether the student used the word in more than one sense needs a reader.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "synonyms-word",
+      "widaName": "Synonyms",
+      "parent": "multiple-meanings",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 32
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs a synonym dictionary; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "register",
+      "widaName": "Register",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 33
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Umbrella term.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "everyday-language",
+      "widaName": "Everyday language",
+      "parent": "register",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 33
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with a word-frequency list.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "cross-disciplinary-language",
+      "widaName": "Cross-disciplinary language",
+      "parent": "register",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 33
+      },
+      "chartTerms": [],
+      "chartMentions": [],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with an academic word list.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "technical-language",
+      "widaName": "Technical language",
+      "parent": "register",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 33
+      },
+      "chartTerms": [
+        "technical language"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "technical language"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "technical language"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with content-area word lists.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "shades-of-meaning",
+      "widaName": "Shades of meaning",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 33
+      },
+      "chartTerms": [
+        "shades of meaning"
+      ],
+      "chartMentions": [
+        {
+          "page": 17,
+          "gradeCluster": "Grades 6–8",
+          "mode": "expressive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "shades of meaning"
+        },
+        {
+          "page": 18,
+          "gradeCluster": "Grades 6–8",
+          "mode": "interpretive",
+          "level": "Level 6",
+          "column": "word/phrase",
+          "term": "shades of meaning"
+        },
+        {
+          "page": 19,
+          "gradeCluster": "Grades 9–12",
+          "mode": "expressive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "shades of meaning"
+        },
+        {
+          "page": 20,
+          "gradeCluster": "Grades 9–12",
+          "mode": "interpretive",
+          "level": "End of Level 5",
+          "column": "word/phrase",
+          "term": "shades of meaning"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Needs meaning; deferred.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "word-formation",
+      "widaName": "Word formation strategies",
+      "parent": null,
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 33
+      },
+      "chartTerms": [
+        "word formation strategies"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "Possible later with a dictionary of base words, so that 're-' in 'replay' counts but 're' in 'ready' does not.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "prefixes",
+      "widaName": "Prefixes",
+      "parent": "word-formation",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 33
+      },
+      "chartTerms": [
+        "word formation strategies"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "See word formation strategies.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "suffixes",
+      "widaName": "Suffixes",
+      "parent": "word-formation",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 33
+      },
+      "chartTerms": [
+        "word formation strategies"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "See word formation strategies.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "root-words",
+      "widaName": "Root words",
+      "parent": "word-formation",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 33
+      },
+      "chartTerms": [
+        "word formation strategies"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "See word formation strategies.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    },
+    {
+      "id": "word-families",
+      "widaName": "Word families",
+      "parent": "word-formation",
+      "dimension": "word",
+      "group": null,
+      "source": {
+        "ref": "S1",
+        "page": 33
+      },
+      "chartTerms": [
+        "word formation strategies"
+      ],
+      "chartMentions": [
+        {
+          "page": 9,
+          "gradeCluster": "Kindergarten",
+          "mode": "expressive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 10,
+          "gradeCluster": "Kindergarten",
+          "mode": "interpretive",
+          "level": "End of Level 4",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 11,
+          "gradeCluster": "Grade 1",
+          "mode": "expressive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 12,
+          "gradeCluster": "Grade 1",
+          "mode": "interpretive",
+          "level": "End of Level 3",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 13,
+          "gradeCluster": "Grades 2–3",
+          "mode": "expressive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 14,
+          "gradeCluster": "Grades 2–3",
+          "mode": "interpretive",
+          "level": "End of Level 2",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 15,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 16,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 21,
+          "gradeCluster": "Grades 4–5",
+          "mode": "expressive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        },
+        {
+          "page": 22,
+          "gradeCluster": "Grades 4–5",
+          "mode": "interpretive",
+          "level": "End of Level 1",
+          "column": "word/phrase",
+          "term": "word formation strategies"
+        }
+      ],
+      "mapping": {
+        "tier": null,
+        "construct": null,
+        "rationale": "See word formation strategies.",
+        "status": "no-detector",
+        "reviewedBy": null,
+        "reviewedOn": null
+      },
+      "detectors": []
+    }
+  ]
 }

@@ -1,2 +1,4 @@
 node_modules/
 .DS_Store
+reference/*.local.json
+__pycache__/
